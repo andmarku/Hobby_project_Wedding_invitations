@@ -3,15 +3,18 @@ Wedding invitation programmed in LaTeX.
 
 The following files were borrowed from open sources.
 ===
-* pgflibraryvectorian.code.tex 
+* pgflibraryvectorian.code.tex
+
     % author Alain Matthes d'après des travaux de F Fradin et H Voss  sur un fichier % 21/01/2012
 
 * pgfornament.sty
+
     %% pgfornament.sty 0.1 du 01/03/2012 inspired from psvectorian P Fradin H Voss
     %% ------------------------------------------------
     %% Copyright (C) 2012 Alain Matthes 
 
 * tikzrput.sty
+    
     % tikzrput.sty 0.2 du 05/03/2012 inspired from rput (pstricks)
     % ------------------------------------------------
     %  CrÃ©Ã© par Alain Matthes le 2012-02-22.
