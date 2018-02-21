@@ -1,0 +1,44 @@
+\PassOptionsToPackage{svgnames}{xcolor}
+\documentclass[12pt,a4paper]{report}
+%\documentclass[12pt,a4paper,landscape]{report}
+
+\usepackage[object=vectorian]{pgfornament}
+\usepackage{tikz}
+\newcommand{\sectionline}[2]{%
+  \nointerlineskip \vspace{.5\baselineskip}\hspace{\fill}
+  {\color{#1}
+    \resizebox{\linewidth}{2ex}
+    {{%
+    {\begin{tikzpicture}
+    \node  (C) at (0,0) {};
+    \node (D) at (9,0) {};
+    \path (C) to [ornament=#2] (D);
+    \end{tikzpicture}}}}}%
+    \hspace{\fill}
+    \par\nointerlineskip \vspace{.5\baselineskip}
+  }
+  
+\usepackage[utf8]{inputenc}
+\usepackage[english, swedish]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{comment,multicol,setspace,anysize}
+\usepackage{icomma,lmodern}
+\usepackage{amsfonts,amsmath,amssymb}
+\usepackage{graphicx,psfrag,epsfig}
+\renewcommand{\arraystretch}{0.7}
+\thispagestyle{empty}
+\marginsize{0.1cm}{0.1cm}{0.5cm}{0.5cm}
+\usepackage{aurical,pbsi,duerer,calligra,aurical,LobsterTwo}
+\usepackage[default]{frcursive}
+
+\begin{document}
+    \begin{multicols}{2}
+        \input{content}\\ \ \\
+        \vfill
+        \input{content}
+        \vfill
+        \input{content}\\
+        \vfill
+        \input{content}
+    \end{multicols}
+\end{document}
