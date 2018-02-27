@@ -1,7 +1,7 @@
 # Wedding-invitations
 Wedding invitation programmed in LaTeX.
 
-See the file Sample.pdf for the generic look of the invitations.
+See the file sample.pdf for the generic look of the invitations.
 
 The following files were borrowed from open sources.
 ===
